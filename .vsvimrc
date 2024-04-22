@@ -1,0 +1,21 @@
+set number
+set clipboard=unnamed,unnamedplus
+set ignorecase
+set showcmd
+set cursorline
+set sw=4
+set relativenumber
+set laststatus=4
+set shiftwidth=2
+set shiftwidth=2
+set expandtab
+set autoindent
+
+let mapleader=" "
+
+nmap <Leader>w :w<CR>
+nmap <Leader>q :q<CR>
+
+imap <C-v> <C-o>"+p
+
+nmap <CR> A<CR><Esc>
