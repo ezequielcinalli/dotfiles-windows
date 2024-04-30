@@ -19,3 +19,6 @@ nmap <Leader>q :q<CR>
 imap <C-v> <C-o>"+p
 
 nmap <CR> A<CR><Esc>
+
+nmap gi :vsc Edit.GoToImplementation<CR>
+nmap gd :vsc Edit.GoToDefinition<CR>
