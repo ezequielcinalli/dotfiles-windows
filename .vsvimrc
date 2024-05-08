@@ -15,6 +15,7 @@ let mapleader=" "
 
 nmap <Leader>w :w<CR>
 nmap <Leader>q :q<CR>
+nmap <Leader><BS> ^hvk$x
 
 imap <C-v> <C-o>"+p
 
