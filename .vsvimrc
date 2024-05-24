@@ -1,6 +1,5 @@
 set number
 set clipboard=unnamed,unnamedplus
-set ignorecase
 set showcmd
 set cursorline
 set sw=4
@@ -10,6 +9,7 @@ set shiftwidth=2
 set shiftwidth=2
 set expandtab
 set autoindent
+set smartcase
 
 let mapleader=" "
 
